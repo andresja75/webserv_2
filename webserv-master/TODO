@@ -1,0 +1,20 @@
+1. check number of port passed to cluster to watch if its valid
+2. close fds_ocuppied which are not being used
+3. accept following headers:
+	-Accept-Charsets
+	-Accept-Language
+	-Allow
+	-Authorization
+	-Content-Language
+	-Content-Length
+	-Content-Location
+	-Content-Type
+	-Date
+	-Host
+	-Last-Modified
+	-Location
+	-Referer
+	-Retry-After
+	-Server
+	-Transfer-Encoding
+	-User-Agent
